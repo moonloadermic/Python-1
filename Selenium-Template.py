@@ -59,10 +59,7 @@ for url in urls:
 
 # join the HTML sources with two newline characters
 html = '\n\n'.join(html_sources)
-print (html);
-with open('./getty.html', 'w', encoding='utf-8') as f:
-    f.write(html)
-exit()
+
 
 
 
