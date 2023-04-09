@@ -26,39 +26,6 @@ options.add_argument("--headless") #无界面
 
 urls = [
     'https://www.gettyimages.com/photos/people?assettype=image&page=1&phrase=Fashion&recency=last24hours&sort=newest',
-    'https://www.gettyimages.com/photos/people?assettype=image&page=1&phrase=Actor&recency=last24hours&sort=newest',
-    'https://www.gettyimages.com/photos/people?assettype=image&page=1&phrase=Concert&recency=last24hours&sort=newest',
-    'https://www.gettyimages.com/photos/people?assettype=image&page=1&phrase=Music&recency=last24hours&sort=newest',
-    'https://www.gettyimages.com/photos/people?assettype=image&page=1&phrase=Celebrities&recency=last24hours&sort=newest',
-  
-    'https://www.gettyimages.com/photos/people?assettype=image&page=2&phrase=Fashion&recency=last24hours&sort=newest',
-    'https://www.gettyimages.com/photos/people?assettype=image&page=2&phrase=Actor&recency=last24hours&sort=newest',
-    'https://www.gettyimages.com/photos/people?assettype=image&page=2&phrase=Concert&recency=last24hours&sort=newest',
-    'https://www.gettyimages.com/photos/people?assettype=image&page=2&phrase=Music&recency=last24hours&sort=newest',
-
-    'https://www.gettyimages.com/photos/people?assettype=image&page=3&phrase=Fashion&recency=last24hours&sort=newest',
-    'https://www.gettyimages.com/photos/people?assettype=image&page=3&phrase=Actor&recency=last24hours&sort=newest',
-    'https://www.gettyimages.com/photos/people?assettype=image&page=3&phrase=Concert&recency=last24hours&sort=newest',
-    'https://www.gettyimages.com/photos/people?assettype=image&page=3&phrase=Music&recency=last24hours&sort=newest', 
-    'https://www.gettyimages.com/photos/people?assettype=image&page=3&phrase=Celebrities&recency=last24hours&sort=newest',
-
-    'https://www.gettyimages.com/photos/people?assettype=image&page=4&phrase=Fashion&recency=last24hours&sort=newest',
-    'https://www.gettyimages.com/photos/people?assettype=image&page=4&phrase=Actor&recency=last24hours&sort=newest',
-    'https://www.gettyimages.com/photos/people?assettype=image&page=4&phrase=Concert&recency=last24hours&sort=newest',
-    'https://www.gettyimages.com/photos/people?assettype=image&page=4&phrase=Music&recency=last24hours&sort=newest', 
-    'https://www.gettyimages.com/photos/people?assettype=image&page=4&phrase=Celebrities&recency=last24hours&sort=newest',
-  
-    'https://www.gettyimages.com/photos/people?assettype=image&page=5&phrase=Fashion&recency=last24hours&sort=newest',
-    'https://www.gettyimages.com/photos/people?assettype=image&page=5&phrase=Actor&recency=last24hours&sort=newest',
-    'https://www.gettyimages.com/photos/people?assettype=image&page=5&phrase=Concert&recency=last24hours&sort=newest',
-    'https://www.gettyimages.com/photos/people?assettype=image&page=5&phrase=Music&recency=last24hours&sort=newest', 
-    'https://www.gettyimages.com/photos/people?assettype=image&page=5&phrase=Celebrities&recency=last24hours&sort=newest',
-  
-    'https://www.gettyimages.com/photos/people?assettype=image&page=6&phrase=Fashion&recency=last24hours&sort=newest',
-    'https://www.gettyimages.com/photos/people?assettype=image&page=6&phrase=Actor&recency=last24hours&sort=newest',
-    'https://www.gettyimages.com/photos/people?assettype=image&page=6&phrase=Concert&recency=last24hours&sort=newest',
-    'https://www.gettyimages.com/photos/people?assettype=image&page=6&phrase=Music&recency=last24hours&sort=newest', 
-    'https://www.gettyimages.com/photos/people?assettype=image&page=6&phrase=Celebrities&recency=last24hours&sort=newest',
 ]
 
 # create an empty list to store the HTML sources
@@ -92,7 +59,8 @@ for url in urls:
 
 # join the HTML sources with two newline characters
 html = '\n\n'.join(html_sources)
-
+print (html);
+exit()
 
 
 
