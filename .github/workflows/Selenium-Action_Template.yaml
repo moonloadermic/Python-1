@@ -26,6 +26,7 @@ jobs:
 
       - name: Running the Python script
         run: python Selenium-Template.py
+        run: python Twitter.py
         
       - name: Commit and Push The Results From Python Selenium Action
         run: |
