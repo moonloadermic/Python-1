@@ -1,3 +1,12 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="css/feed.xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/">
+<channel>
+<atom:link rel="self" href="https://www.twitter.com" />
+<title>Twitter</title>
+<link>https://www.twitter.com/</link>
+<description>twitter_web_scrapper.py</description>
 <item><title>本来觉得如此低劣的谣言实在没有辟谣的必要
 但是没想到还是会有人相信，真的不堪其扰。
 只能在此占用大家的时间了。
@@ -16,3 +25,6 @@
 <item><title>Good to see that 4 of the women involved in the Blank Paper protests have been released!
 
 But we continue to be concerned for #KamileWayit, a 19-year-old #Uyghur student in Henan, who shared some Blank Paper Movement videos and was detained after returning to Atush on Dec. 12</title><link>https://twitter.com/CHRDnet/status/1649053130309636096</link><author>whyyoutouzhele</author></item>
+
+</channel>
+</rss>
