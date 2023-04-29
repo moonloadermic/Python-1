@@ -32,15 +32,15 @@ driver.get(f"https://twitter.com/{userName}")
 try:
 		driver.find_element(By.XPATH,"//a[@id='button_retry']")
 		driver.find_element(By.XPATH,"//a[@id='button_retry']").click()
-		time.sleep(5)
+		time.sleep(4)
 except:pass
 
-time.sleep(5)
+time.sleep(4)
 driver.switch_to.window(driver.window_handles[-1]) #将 Selenium WebDriver 的焦点切换到当前窗口的最后一个句柄（即最后一个打开的标签页或窗口
 driver.find_element(By.XPATH,'//body').send_keys(Keys.PAGE_DOWN)
 driver.find_element(By.XPATH,'//body').send_keys(Keys.PAGE_DOWN)
 driver.find_element(By.XPATH,'//body').send_keys(Keys.PAGE_DOWN)
-time.sleep(1)
+time.sleep(4)
 
 
 elementTitle=driver.find_elements(By.XPATH,"//*[@id='react-root']/div/div/div[2]/main/div/div/div/div/div/div[3]/div/div/section/div/div/div/div/div/article/div/div/div[2]/div[2]/div[2]")
