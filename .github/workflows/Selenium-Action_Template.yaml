@@ -25,7 +25,7 @@ jobs:
         run: sudo apt-get install xvfb
 
       - name: Running the Python script
-        run: python twitter_web_scrapper.py whyyoutouzhele; python twitter_web_scrapper.py popcrave; python twitter_web_scrapper.py FilmUpdates; python twitter_web_scrapper.py PopBase; python Selenium-Template.py
+        run: python Selenium-Template.py
        #run: python Twitter.py
        #run: python Selenium-Template.py
         
