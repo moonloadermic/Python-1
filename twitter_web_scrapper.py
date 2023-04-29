@@ -46,7 +46,7 @@ time.sleep(4)
 elementTitle=driver.find_elements(By.XPATH,"//*[@id='react-root']/div/div/div[2]/main/div/div/div/div/div/div[3]/div/div/section/div/div/div/div/div/article/div/div/div[2]/div[2]/div[2]")
 elementUrl=driver.find_elements(By.XPATH,"//*[contains(@id,'id')]/div[2]/div/div[3]/a")
 
-with open('twitter.xml', 'w') as file:
+with open(userName  + '-twitter.xml', 'w') as file:
 	header ="""
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="css/feed.xsl"?>
