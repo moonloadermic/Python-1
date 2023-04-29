@@ -1,0 +1,32 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="css/feed.xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/">
+<channel>
+<atom:link rel="self" href="https://www.twitter.com" />
+<title>Twitter</title>
+<link>https://www.twitter.com/</link>
+<description>twitter_web_scrapper.py</description>
+<item><title>Kelly Fremon Craig’s ‘ARE YOU THERE GOD? IT'S ME, MARGARET’ is now playing in theaters.
+
+The film is certified fresh with a score of 99% on Rotten Tomatoes from 111 reviews.</title><link>https://twitter.com/FilmUpdates/status/1652109213622210561</link><author>FilmUpdates</author></item>
+<item><title>A ‘BLOOD MERIDIAN’ movie is in the works with John Hillcoat set to direct.
+
+(https://deadline.com/2023/04/new-regency-cormac-mccarthys-blood-meridian-john-hillcoat-1235340998/…)</title><link>https://twitter.com/FilmUpdates/status/1652061789192855553</link><author>FilmUpdates</author></item>
+<item><title>Early footage of Joseph Quinn in A QUIET PLACE: DAY ONE “blew away” execs at Paramount, 
+@Deadline
+ reports.
+
+He is now set to star opposite Paul Mescal, Barry Keoghan and Denzel Washington in GLADIATOR 2.</title><link>https://twitter.com/FilmUpdates/status/1652058423524220929</link><author>FilmUpdates</author></item>
+<item><title>‘TRUE DETECTIVE’ creator Nic Pizzolatto to write the upcoming ‘BLADE’ movie starring Mahershala Ali, Mia Goth and Delroy Lindo.
+
+(https://hollywoodreporter.com/movies/movie-news/marvels-blade-nabs-true-detective-creator-1235405915/…)</title><link>https://twitter.com/FilmUpdates/status/1652058342737555458</link><author>FilmUpdates</author></item>
+<item><title>Tom Cruise and Winnie the Pooh will take part in King Charles III’s coronation concert.
+
+(https://variety.com/2023/tv/global/tom-cruise-winnie-the-pooh-nicole-scherzinger-king-charles-coronation-concert-1235598021/…)</title><link>https://twitter.com/FilmUpdates/status/1652056459490852868</link><author>FilmUpdates</author></item>
+<item><title>Michaela Jaé Rodriguez joins the cast of ‘AMERICAN HORROR STORY: DELICATE’ starring Emma Roberts, Kim Kardashian, Cara Delevingne and Annabelle Dexter-Jones.
+
+Her role in the series is being kept under wraps.</title><link>https://twitter.com/FilmUpdates/status/1652053420151574532</link><author>FilmUpdates</author></item>
+
+</channel>
+</rss>

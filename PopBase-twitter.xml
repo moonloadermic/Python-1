@@ -1,0 +1,18 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="css/feed.xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/">
+<channel>
+<atom:link rel="self" href="https://www.twitter.com" />
+<title>Twitter</title>
+<link>https://www.twitter.com/</link>
+<description>twitter_web_scrapper.py</description>
+<item><title>The crowd for Rosalía’s concert at Mexico City’s Zócalo tonight.</title><link>https://twitter.com/PopBase/status/1652185614958350338</link><author>PopBase</author></item>
+<item><title>Millie Bobby Brown and her fiancé Jake Bongiovi spotted in Italy.</title><link>https://twitter.com/PopBase/status/1652087469167493120</link><author>PopBase</author></item>
+<item><title>Bebe Rexha and Dolly Parton share a raw performance in new ‘Seasons’ music video.</title><link>https://twitter.com/PopBase/status/1652121036517945348</link><author>PopBase</author></item>
+<item><title>Camila Cabello stuns for L'Oréal.</title><link>https://twitter.com/PopBase/status/1652107341914062849</link><author>PopBase</author></item>
+<item><title>Millie Bobby Brown and her fiancé Jake Bongiovi spotted in Italy.</title><link>https://twitter.com/PopBase/status/1652087469167493120</link><author>PopBase</author></item>
+<item><title>Billie Eilish stuns in new photo.</title><link>https://twitter.com/PopBase/status/1652076191434825730</link><author>PopBase</author></item>
+
+</channel>
+</rss>

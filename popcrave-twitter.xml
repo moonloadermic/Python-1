@@ -1,0 +1,31 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="css/feed.xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/">
+<channel>
+<atom:link rel="self" href="https://www.twitter.com" />
+<title>Twitter</title>
+<link>https://www.twitter.com/</link>
+<description>twitter_web_scrapper.py</description>
+<item><title>The Minnesota Senate has voted to legalize recreational marijuana, which the governor is expected to sign into law.</title><link>https://twitter.com/PopCrave/status/1652136463239356417</link><author>popcrave</author></item>
+<item><title>Bebe Rexha & Dolly Parton share an intimate moment in the music video for their new track, “Seasons.”</title><link>https://twitter.com/PopCrave/status/1652109860396228609</link><author>popcrave</author></item>
+<item><title>Here’s how Maddy can still win-</title><link>https://twitter.com/MaddyMorphosis/status/1652074479835811840</link><author>popcrave</author></item>
+<item><title>.
+@MileyCyrus
+’ new US certifications:
+
+Midnight Sky — 2x Platinum
+Do My Thang — Platinum
+Prisoner — Platinum
+Plastic Hearts (song) — Gold
+Heart of Glass — Gold
+Angels Like You — Gold
+Younger Now (album) — Gold</title><link>https://twitter.com/PopCrave/status/1652073636524699648</link><author>popcrave</author></item>
+<item><title>'Cheer' star Monica Aldama sued for allegedly covering up sexual assault.
+
+Cheerleader Madi Lane says the coach told her, “Let’s not make this a big deal. I want the best for you and I will help you cheer wherever you want.”
+
+: https://pagesix.com/2023/04/27/cheer-star-monica-aldama-sued-for-allegedly-covering-up-sexual-assault/…</title><link>https://twitter.com/PopCrave/status/1651974139198963713</link><author>popcrave</author></item>
+
+</channel>
+</rss>
