@@ -43,10 +43,28 @@ driver.find_element(By.XPATH,'//body').send_keys(Keys.PAGE_DOWN)
 time.sleep(1)
 
 
-elementDate=driver.find_elements(By.XPATH,"//*[@id='react-root']/div/div/div[2]/main/div/div/div/div/div/div[3]/div/div/section/div/div/div/div/div/article/div/div/div[2]/div[2]/div[2]")
+elementTitle=driver.find_elements(By.XPATH,"//*[@id='react-root']/div/div/div[2]/main/div/div/div/div/div/div[3]/div/div/section/div/div/div/div/div/article/div/div/div[2]/div[2]/div[2]")
 elementUrl=driver.find_elements(By.XPATH,"//*[contains(@id,'id')]/div[2]/div/div[3]/a")
-with open('twitter.log', 'w') as file:
-	for i in range(5):
-		content=elementDate[i].text+'|'+elementUrl[i].get_attribute('href')
+
+with open('twitter.xml', 'w') as file:
+	header ="""
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="css/feed.xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/">
+<channel>
+<atom:link rel="self" href="https://www.twitter.com" />
+<title>Twitter</title>
+<link>https://www.twitter.com/</link>
+<description>twitter_web_scrapper.py</description>
+"""
+		
+	footer ="""
+</channel>
+</rss>
+"""
+	print(header)
+	for i in range(min(8, len(elementTitle))):
+		content='<item><title>' + elementTitle[i].text+'</title><link>'+elementUrl[i].get_attribute('href') +'</link><author>'+ userName  + '</author></item>'
 		print(content)
 		file.write(content + '\n')
+	print(footer)
