@@ -63,8 +63,10 @@ with open('twitter.xml', 'w') as file:
 </rss>
 """
 	print(header)
+	file.write(header)
 	for i in range(min(8, len(elementTitle))):
 		content='<item><title>' + elementTitle[i].text+'</title><link>'+elementUrl[i].get_attribute('href') +'</link><author>'+ userName  + '</author></item>'
 		print(content)
 		file.write(content + '\n')
 	print(footer)
+	file.write(footer)
