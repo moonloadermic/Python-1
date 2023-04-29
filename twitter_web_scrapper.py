@@ -37,9 +37,9 @@ except:pass
 
 time.sleep(5)
 driver.switch_to.window(driver.window_handles[-1]) #将 Selenium WebDriver 的焦点切换到当前窗口的最后一个句柄（即最后一个打开的标签页或窗口
-driver.find_element_by_xpath('//body').send_keys(Keys.PAGE_DOWN)
-driver.find_element_by_xpath('//body').send_keys(Keys.PAGE_DOWN)
-driver.find_element_by_xpath('//body').send_keys(Keys.PAGE_DOWN)	
+driver.find_element(By.XPATH,'//body').send_keys(Keys.PAGE_DOWN)
+driver.find_element(By.XPATH,'//body').send_keys(Keys.PAGE_DOWN)
+driver.find_element(By.XPATH,'//body').send_keys(Keys.PAGE_DOWN)
 time.sleep(1)
 
 
