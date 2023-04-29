@@ -46,6 +46,6 @@ time.sleep(1)
 elementDate=driver.find_elements(By.XPATH,"//*[@id='react-root']/div/div/div[2]/main/div/div/div/div/div/div[3]/div/div/section/div/div/div/div/div/article/div/div/div[2]/div[2]/div[2]")
 elementUrl=driver.find_elements(By.XPATH,"//*[contains(@id,'id')]/div[2]/div/div[3]/a")
 with open('twitter.html','a+')as file:
-	for i in range(1):
+	for i in range(5):
 		content=elementDate[i].text+'|'+elementUrl[i].get_attribute('href')
 		print(content)
