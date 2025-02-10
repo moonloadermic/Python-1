@@ -26,7 +26,7 @@ driver = webdriver.Chrome(options=options)
 
 driver.get('http://github.com')
 print(driver.title)
-with open('./GitHub_Action_Results.txt', 'w', encoding='utf-8') as f:
+with open('./GitHub_Action_Results1.txt', 'w', encoding='utf-8') as f:
     f.write(f"This was written with a GitHub action {driver.title}")
 
 
